@@ -1,1 +1,0 @@
-cmd_/home/mangalanath/mangal_cpp/my_device_drivers/hello_mod.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/mangalanath/mangal_cpp/my_device_drivers/hello_mod.ko /home/mangalanath/mangal_cpp/my_device_drivers/hello_mod.o /home/mangalanath/mangal_cpp/my_device_drivers/hello_mod.mod.o ;  true
